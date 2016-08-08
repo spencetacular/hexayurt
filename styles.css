@@ -1,0 +1,47 @@
+.r-max {
+	/*fill: lightGrey;*/
+	stroke-width: 1px;
+	stroke: black;
+	/*margin: 10px;*/
+	/*#4d5457*/
+	 fill: linear-gradient(to right, red , yellow);
+}
+
+.line{
+	stroke: black;
+	stroke-dasharray: 5,5;
+}
+
+.geometry {
+	margin: 20px;
+}
+
+/*.test {
+	display: inline;
+}*/
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    /*width: 400px;
+    height: 250px;
+    background-color: lightgrey;*/
+    /*margin: 20px;*/
+}
+
+P {
+	/*position: relative;
+	bottom: 100px;
+	left: 5px;*/
+	margin: 0px;
+}
+.subscript {
+	font-size: 13px;
+	font-weight: normal;
+	position: relative;
+	top: 5px;
+	right: 3px;
+}
+ h3 {
+ 	display: inline;
+ }
