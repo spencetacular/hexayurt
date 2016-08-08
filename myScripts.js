@@ -11,3 +11,5 @@ dropDown.onChange = function(){
 	var selectedNumber = dropDown.options[dropDown.selectedIndex].value;
 	document.getElementById("demo").innerHTML = selectedNumber.toString();
 }
+
+//http://stackoverflow.com/questions/9062628/how-to-get-dropdown-selected-value-on-client-side-onchange-event
