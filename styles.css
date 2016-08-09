@@ -1,3 +1,32 @@
+.r {
+	padding: 0px;
+	margin: 0px;
+	transform: scale(3,1);
+	/*text-align: center;*/
+
+}
+.max {
+	padding: 0px;
+	margin: 0px;
+	position: relative;
+	bottom:	20px;
+
+}
+.r-max-font-div {
+	/*padding: 0px;
+	margin: 0px;*/
+	/*background-color: red;*/
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	color: rgba(0,0,137,0.75);
+	transform: rotate(-45deg);
+	position: absolute; 
+	left: 200px;
+	top: 100px;
+
+	/*vertical-align: center;*/
+}
 .r-max {
 	/*fill: lightGrey;*/
 	stroke-width: 1px;
