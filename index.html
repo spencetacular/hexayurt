@@ -4,14 +4,19 @@
 	<link rel="stylesheet" href="styles.css"></link>
 	<script src="myscripts.js"></script>
 </head>
-<body>
-<h1 id="demo">Test<h1>
+<body onload="calculateDist()">
+<!-- <h1 id="demo">Test<h1>
  <select id="mySelect" class="myClass">
-  <option value='1'>One</option>
-</select>
+  <option value='1'>One</option> -->
+<!-- </select> -->
+<!-- <div class="r-max-div">
+	
+	<h1 class="r-max-font">R</h1>
+</div> -->
 <button type="button" onclick="myFunction()">Try it</button>
 <div class="flex-container">
 	<div class="geometry">
+		
 		<svg width="400" height="200">
 		<defs>
 		    <linearGradient id="grad1" x1="0%" y1="0%" x2="0%" y2="100%">
@@ -25,8 +30,9 @@
 		    <line class="line" x1="380" y1="0" x2="380" y2="200"/>
 		</svg>
 		<div>
-			<h3>d</h3>
+			<h3>&lambda;</h3>
 			<h3 class="subscript">1</h3>
+			<p id="d1">Temp</p>
 		</div>
 	</div>
 	<div class="geometry">
@@ -43,9 +49,15 @@
 		    <line class="line" x1="180" y1="0" x2="180" y2="200"/>
 		</svg>
 		<div>
-			<h3>d</h3>
+			<h3>&lambda;</h3>
 			<h3 class="subscript">2</h3>
+			<p id="d2">Temp</p>
+			<h3 class="d3-lamda">&lambda;</h3>
+			<h3 class="subscript">3</h3>
+			<p id="d3">Temp</p>
 		</div>
+		
+		
 	</div>
 </div>
 <div class="flex-container">
@@ -63,8 +75,9 @@
 		    <line class="line" x1="90" y1="20" x2="180" y2="200"/>
 		</svg>
 		<div>
-			<h3>d</h3>
-			<h3 class="subscript">3</h3>
+			<h3>&lambda;</h3>
+			<h3 class="subscript">4</h3>
+			<p id="d4">Temp</p>
 		</div>
 	</div>
 	<div class="geometry">
