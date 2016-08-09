@@ -1,8 +1,11 @@
+#playa {
+	 background: linear-gradient(red 10%, green 85%, blue 90%);
+}
+
 .r {
 	padding: 0px;
 	margin: 0px;
 	transform: scale(3,1);
-	/*text-align: center;*/
 
 }
 .max {
@@ -13,9 +16,7 @@
 
 }
 .r-max-font-div {
-	/*padding: 0px;
 	margin: 0px;*/
-	/*background-color: red;*/
 	width: 100px;
 	height: 100px;
 	text-align: center;
@@ -25,15 +26,11 @@
 	left: 200px;
 	top: 100px;
 
-	/*vertical-align: center;*/
 }
 .r-max {
-	/*fill: lightGrey;*/
 	stroke-width: 1px;
 	stroke: black;
-	/*margin: 10px;*/
-	/*#4d5457*/
-	 fill: linear-gradient(to right, red , yellow);
+	fill: linear-gradient(to right, red , yellow);
 }
 
 .line{
@@ -45,23 +42,15 @@
 	margin: 20px;
 }
 
-/*.test {
-	display: inline;
-}*/
 
 .flex-container {
     display: -webkit-flex;
     display: flex;
-    /*width: 400px;
-    height: 250px;
-    background-color: lightgrey;*/
-    /*margin: 20px;*/
+ 
 }
 
 P {
-	/*position: relative;
-	bottom: 100px;
-	left: 5px;*/
+	
 	margin: 0px;
 }
 .subscript {
@@ -85,26 +74,7 @@ P {
 	width: 100px;
 	height: 100px;
 }
-.r-max-font {
-	/*color: darkBlue;*/
-	/*width: 100px;
-	height: 100px;*/
 
-	color: rgba(5,5,100,0.7);
-	opacity: 50%;
-	/*transform: rotate(-45deg);*/
-	position: absolute;
-	/*width: 100%;*/
-	/*margin: auto;*/
-	 text-align: center;
-	
-
-}
-
-.r-max-1 {
-	top: 200px;
-	left: 100px;
-}
 
 .d3-lamda {
 	margin-left: 100px;
